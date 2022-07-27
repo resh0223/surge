@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 const student = new Schema({
 
     id : {
-        type : number,
+        type : Number,
         required : true
     },
     
@@ -30,13 +30,13 @@ const student = new Schema({
     },
     
     mobile: {
-        type : number,
+        type : Number,
         required : true
     },
     
    
     status : {
-        type : boolean,
+        type : Boolean,
         required : true
     },
 

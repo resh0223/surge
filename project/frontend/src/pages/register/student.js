@@ -22,10 +22,8 @@ import {DatePicker} from '@mui/x-date-pickers/DatePicker';
 import {LocalizationProvider} from '@mui/x-date-pickers/LocalizationProvider';
 import {AdapterDateFns} from '@mui/x-date-pickers/AdapterDateFns';
 import {useTheme} from '@mui/material/styles'; 
-
 import CloudUploadTwoToneIcon from "@mui/icons-material/CloudUploadTwoTone";
 import CustomMenu from "../../components/CustomMenu";
-import AdvertisementProfileMenu from "../../components/advertisement/AdvertisementProfileMenu";
 import {Link, useNavigate} from "react-router-dom";
 
 const student = (props) => {

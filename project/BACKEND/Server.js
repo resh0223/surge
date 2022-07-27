@@ -28,11 +28,11 @@ connection.once("open", () => {
 })
 
 
-const student = require('./routes/Register/student')
+const student = require('./routes/Register/student_routes')
 app.use("/student" , student);
 
 
-const user = require('./routes/Register/user')  
+const user = require('./routes/Register/notes_routes')  
 app.use("/user" , user);
 
 

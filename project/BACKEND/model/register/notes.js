@@ -14,8 +14,6 @@ const notes = new Schema({
         required : true
     },
     
-    
-
 })
 //send data to the database//routes
 const notesSchema = mongoose.model("notes",notes);

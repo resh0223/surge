@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import Box from "@mui/material/Box";
 import {Button, Checkbox, FormControlLabel, Grid, Paper, TextField} from "@mui/material";
 import Typography from "@mui/material/Typography";
-import logo from "../../assets/svg/logo.svg";
 import {styled} from "@mui/material/styles";
 import {BoxWithoutShadow} from "../../components/CustomBoxes";
 import Swal from 'sweetalert2';
